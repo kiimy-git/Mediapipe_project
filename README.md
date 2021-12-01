@@ -155,14 +155,14 @@ array([[[171,   0],
 ### Accuracy, loss 시각화
 ![initial](https://user-images.githubusercontent.com/83389640/144205395-af9c1dbc-e8c5-4767-bace-2f27ed3fcb8b.png)
 
-##2. ML Model 학습
+### 2. ML Model 학습
 - 모델 default 값으로 진행
 - 진행한 모델 모두 100% 성능(RandomForest 모델로 진행)
 
 ### Confusion Matrix
 ![initial](https://user-images.githubusercontent.com/83389640/144202628-ab80bc49-8665-4763-84ae-4fbb91978fd8.png)
 
-### 2. 학습한 모델(LSTM, RandomForest) 적용하여 결과 확인
+## 3. 학습한 모델(LSTM, RandomForest) 적용하여 결과 확인
 * LSTM(영상에 예측 gestures 이름 추가)
 영상
 * RandomForest(예측확률 값 추가)
