@@ -89,7 +89,7 @@ while cap.isOpened():
                     # visibility = [0.0, 1.0]이미지에서 랜드마크가 보일 가능성(존재하고 가려지지 않은)을 나타내는 값
                     
 
-                    # 관절사이 각도 계산(= gesture_train 값)    
+                    # 관절사이 각도 계산(= new_dataset값)    
                     # landmark 사이 길이(관절의 vector를 구해줌), # visibility 제외 #
                     # 0 1 2 3 4
                     v1 = joint[[0,1,2,3,0,5,6,7,0,9,10,11,0,13,14,15,0,17,18,19],:3] # Parent joint
