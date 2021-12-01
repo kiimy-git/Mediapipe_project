@@ -1,5 +1,5 @@
 # Mediapipe를 활용한 Movement Detection
-[Mediapipe](https://google.github.io/mediapipe/solutions/hands.html)
+[Mediapipe solutions hands API](https://google.github.io/mediapipe/solutions/hands.html)
 * 건설현장에서는 자재 도난사고, 인명사고 등 빈번하게 발생
 * 이를 예방하기 위한 CCTV와 관리자가 있지만 실시간으로 Monitoring 한계가 존재
 * 특정 행동에 대한 데이터를 수집하고 이를 label을 부여한 Model을 구축함으로써 실시간으로 사고를 예방하기 위함
@@ -12,6 +12,15 @@
 * webcam을 사용하여 데이터 수집(gestures = rock, scissors, paper)
 * Data = Mediapipe solution API (Hands)를 활용하여 손의 각 Landmark의 각도를 구한 값(**Arccos사용**)
 * (rock, scissors, paper) = 2606개 수집
+```
+'''
+  rock (901, 100)
+
+  scissors (902, 100)
+
+  paper (893, 100)
+'''
+```
 ### Mediapipe Hands API
 ![initial](https://user-images.githubusercontent.com/83389640/144199605-62ff7b8d-cea2-4293-bd47-18cf26b0dcff.png)
 
@@ -160,6 +169,7 @@ array([[[171,   0],
 ### 2. ML Model 학습
 - 모델 default 값으로 진행
 - 진행한 모델 모두 100% 성능(RandomForest 모델로 진행)
+- LogisticRegression, RidgeClassifier, **RandomForestClassifier**, XGBClassifier
 
 ### Confusion Matrix
 ![initial](https://user-images.githubusercontent.com/83389640/144202628-ab80bc49-8665-4763-84ae-4fbb91978fd8.png)
@@ -189,7 +199,7 @@ array([[[171,   0],
 ## Reviews
 1. Mediapipe라는 이미 잘 구현된 API를 가져와 구축한 것이기 때문에 실질적으로 어떻게 구현했는지에 대한 이해 한계
 
-ex) 어떻게 Hands Landmark 인식?
+   ex) 어떻게 Hands Landmark 인식?
 
 2. scissors가 다른 action에 비해서 예측확률이 현저히 떨어짐 **why??**
 
