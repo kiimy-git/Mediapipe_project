@@ -190,5 +190,7 @@ array([[[171,   0],
 1. Mediapipe라는 이미 잘 구현된 API를 가져와 구축한 것이기 때문에 실질적으로 어떻게 구현했는지에 대한 이해 한계
 
 ex) 어떻게 Hands Landmark 인식?
+
 2. scissors가 다른 action에 비해서 예측확률이 현저히 떨어짐 **why??**
+
 3. Mediapipe에는 많은 Solution이 존재(= Object Detection, Pose, Face Mesh ...)
