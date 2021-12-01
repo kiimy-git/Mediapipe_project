@@ -80,6 +80,8 @@ angle_label = np.array([angle], dtype=np.float32)
 angle_label = np.append(angle_label, idx)
 ```
 ## Data 수집 영상
+* rock, scissors, paper 순차적으로 데이터 수집
+<img width="50%" src='https://user-images.githubusercontent.com/83389640/144220487-bbee0733-d9d7-41f9-bcf4-b9fd00917679.gif'/>
 
 ## 2. colab으로 LSTM Model, ML Model 학습
 ### 1. LSTM Model
@@ -163,10 +165,12 @@ array([[[171,   0],
 ![initial](https://user-images.githubusercontent.com/83389640/144202628-ab80bc49-8665-4763-84ae-4fbb91978fd8.png)
 
 ## 3. 학습한 모델(LSTM, RandomForest) 적용하여 결과 확인
-* LSTM(영상에 예측 gestures 이름 추가)
-영상
-* RandomForest(예측확률 값 추가)
-영상
+(용량이 커서 paper부분은 짤림)
+
+### LSTM(영상에 예측 gestures 이름 추가)
+<img width="50%" src='https://user-images.githubusercontent.com/83389640/144220672-d6b9ce2c-71f6-426b-a00b-8e9087a2a0ec.gif'/>
+### RandomForest(예측확률 값 추가)
+<img width="50%" src='https://user-images.githubusercontent.com/83389640/144220685-1dc862e1-60f2-4816-a993-aecb5e8603bd.gif'/>
 
 ## Tools
 * python
@@ -183,5 +187,6 @@ array([[[171,   0],
 
 ## Reviews
 1. Mediapipe라는 이미 잘 구현된 API를 가져와 구축한 것이기 때문에 실질적으로 어떻게 구현했는지에 대한 이해 한계
+
 ex) 어떻게 Hands Landmark 인식?
 2. Mediapipe에는 많은 Solution이 존재(= Object Detection, Pose, Face Mesh ...)
