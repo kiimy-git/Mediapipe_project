@@ -169,6 +169,7 @@ array([[[171,   0],
 
 ### LSTM(영상에 예측 gestures 이름 추가)
 <img width="50%" src='https://user-images.githubusercontent.com/83389640/144220672-d6b9ce2c-71f6-426b-a00b-8e9087a2a0ec.gif'/>
+
 ### RandomForest(예측확률 값 추가)
 <img width="50%" src='https://user-images.githubusercontent.com/83389640/144220685-1dc862e1-60f2-4816-a993-aecb5e8603bd.gif'/>
 
@@ -189,4 +190,5 @@ array([[[171,   0],
 1. Mediapipe라는 이미 잘 구현된 API를 가져와 구축한 것이기 때문에 실질적으로 어떻게 구현했는지에 대한 이해 한계
 
 ex) 어떻게 Hands Landmark 인식?
-2. Mediapipe에는 많은 Solution이 존재(= Object Detection, Pose, Face Mesh ...)
+2. scissors가 다른 action에 비해서 예측확률이 현저히 떨어짐 **why??**
+3. Mediapipe에는 많은 Solution이 존재(= Object Detection, Pose, Face Mesh ...)
