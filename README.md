@@ -94,6 +94,8 @@ angle_label = np.append(angle_label, idx)
 
 ## 2. colab으로 LSTM Model, ML Model 학습
 ### 1. LSTM Model
+* early_stopping 사용 / 사용 X 두 경우 모델 학습 진행
+* Earlystopping 사용시 학습 조기종료로 인해 성능이 100%가 나오지 않음
 ```python
 # LSTM
 model = Sequential([
@@ -107,8 +109,7 @@ model.summary()
 ```
 ![initial](https://user-images.githubusercontent.com/83389640/144205231-282223dc-15ac-4d94-98e6-d1129806be72.png)
 
-* early_stopping 사용 / 사용 X 두 경우 모델 학습 진행
-* Earlystopping 사용시 학습 조기종료로 인해 성능이 100%가 나오지 않음
+
 ```python
 #학습한 모델 저장(EarlyStopping)
 cheak_point = ModelCheckpoint('LSTM_Model.h5',
