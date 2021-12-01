@@ -31,7 +31,7 @@
 3. Modeling
 4. 학습시킨 Model을 사용하여 webcam으로 실행 후 결과 확인
 
-# 1. Data 수집(Mediapipe 사용하여 Hands의 각 Landmark 각도 구하기)
+## 1. Data 수집(Mediapipe 사용하여 Hands의 각 Landmark 각도 구하기)
 ```python
 mp_hands = mp.solutions.hands # 손의 관절 위치를 인식할 수 있는 모델
 mp_drawing = mp.solutions.drawing_utils # 관절(landmark 그리기 위함)
@@ -81,8 +81,8 @@ angle_label = np.append(angle_label, idx)
 ```
 ## Data 수집 영상
 
-# 2. colab으로 LSTM Model, ML Model 학습
-## 1. LSTM Model
+## 2. colab으로 LSTM Model, ML Model 학습
+### 1. LSTM Model
 ```python
 # LSTM
 model = Sequential([
@@ -162,7 +162,7 @@ array([[[171,   0],
 ### Confusion Matrix
 ![initial](https://user-images.githubusercontent.com/83389640/144202628-ab80bc49-8665-4763-84ae-4fbb91978fd8.png)
 
-2. 학습한 모델(LSTM, RandomForest) 적용하여 결과 확인
+## 2. 학습한 모델(LSTM, RandomForest) 적용하여 결과 확인
 * LSTM(영상에 예측 gestures 이름 추가)
 영상
 * RandomForest(예측확률 값 추가)
