@@ -162,7 +162,7 @@ array([[[171,   0],
 ### Confusion Matrix
 ![initial](https://user-images.githubusercontent.com/83389640/144202628-ab80bc49-8665-4763-84ae-4fbb91978fd8.png)
 
-## 2. 학습한 모델(LSTM, RandomForest) 적용하여 결과 확인
+### 2. 학습한 모델(LSTM, RandomForest) 적용하여 결과 확인
 * LSTM(영상에 예측 gestures 이름 추가)
 영상
 * RandomForest(예측확률 값 추가)
