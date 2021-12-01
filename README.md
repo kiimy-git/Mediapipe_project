@@ -12,7 +12,7 @@
 * webcam을 사용하여 데이터 수집(gestures = rock, scissors, paper)
 * Data = Mediapipe solution API (Hands)를 활용하여 손의 각 Landmark의 각도를 구한 값(**Arccos사용**)
 * (rock, scissors, paper) = 2606개 수집
-```
+```python
 '''
   rock (901, 100)
 
