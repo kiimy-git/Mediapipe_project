@@ -109,7 +109,7 @@ while cap.isOpened():
                     # arccos return == Radian
                     # einsum == dot product( 내적 ), 각 행과의 곱 ==> 1D로 변환
                     angle = np.arccos(np.einsum('ij,ij->i', A, B)) 
-                        # [15,] = 15개의 손가락 데이터
+                        # [15,] = 15개의 데이터(각 landmark와의 각도)
 
                     # degrees 변경(=gesture_train), float64 ==> float32
                     # radian * (180*pi)
