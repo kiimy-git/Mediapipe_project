@@ -2,6 +2,7 @@
 [Mediapipe solutions hands API](https://google.github.io/mediapipe/solutions/hands.html)
 * 건설현장에서는 자재 도난사고, 인명사고 등 빈번하게 발생
 * 이를 예방하기 위한 CCTV와 관리자가 있지만 실시간으로 Monitoring 한계가 존재
+
 **특정 행동에 대한 데이터를 수집하고 이를 label을 부여한 Model을 구축함으로써 실시간으로 사고를 예방하기 위함**
 
 # Requirements
