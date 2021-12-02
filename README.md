@@ -124,7 +124,8 @@ early_stop = EarlyStopping(monitor='val_acc',min_delta=0.0001, patience=3)
 
 history = model.fit(X_train, y_train, validation_data=(X_test,y_test), epochs=100,
                     callbacks=[cheak_point, early_stop])
-
+                    
+------------------------------------------------------------------------------------------------------------------------
 Epoch 4/100
 74/74 [==============================] - 7s 88ms/step - loss: 1.1787e-07 - acc: 1.0000 - val_loss: 0.0466 - val_acc: 0.9962
 
@@ -140,10 +141,13 @@ cheak_point = ModelCheckpoint('LSTM_Model2.h5',
 
 history = model.fit(X_train, y_train, validation_data=(X_test,y_test), epochs=30,
                     callbacks=[cheak_point])
+                    
+------------------------------------------------------------------------------------------------------------------------                    
 Epoch 30/30
 74/74 [==============================] - 7s 91ms/step - loss: 0.0162 - acc: 0.9970 - val_loss: 0.0040 - val_acc: 0.9962
 
 Epoch 00030: val_acc did not improve from 1.00000
+------------------------------------------------------------------------------------------------------------------------
 
 # multilabel confusion matrix
 # EarlyStopping 사용
