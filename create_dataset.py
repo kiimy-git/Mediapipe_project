@@ -4,7 +4,7 @@ import numpy as np
 import os, time
 
 
-# 저장하고자 하는 action
+# 저장하고자 하는 gestures
 gestures = ['rock', 'scissors', 'paper']
 seq_length = 30 # LSTM을 사용하고자 seq 길이 설정(window)
 action_recoding = 3 # 30초 동안 기록
