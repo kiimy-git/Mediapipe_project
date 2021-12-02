@@ -26,7 +26,7 @@
 ![initial](https://user-images.githubusercontent.com/83389640/144199605-62ff7b8d-cea2-4293-bd47-18cf26b0dcff.png)
 
 ### Arccos ( cosine 역함수 )
-![initial](https://user-images.githubusercontent.com/83389640/144199611-84a5739a-db5f-4c7e-8181-de0bc6922e4a.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/83389640/144199611-84a5739a-db5f-4c7e-8181-de0bc6922e4a.png"></p>
 
 # Model
 * 딥러닝 기반 모델 : LSTM
@@ -91,7 +91,7 @@ angle_label = np.append(angle_label, idx)
 ```
 ## Data 수집 영상
 * rock, scissors, paper 순차적으로 데이터 수집
-<img width="50%" src='https://user-images.githubusercontent.com/83389640/144220487-bbee0733-d9d7-41f9-bcf4-b9fd00917679.gif'/>
+<p align="center"><img src="https://user-images.githubusercontent.com/83389640/144220487-bbee0733-d9d7-41f9-bcf4-b9fd00917679.gif"></p>
 
 ## 2. colab으로 LSTM Model, ML Model 학습
 ### 1. LSTM Model
@@ -108,7 +108,8 @@ model = Sequential([
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['acc'])
 model.summary()
 ```
-![initial](https://user-images.githubusercontent.com/83389640/144205231-282223dc-15ac-4d94-98e6-d1129806be72.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/83389640/144205231-282223dc-15ac-4d94-98e6-d1129806be72.png"></p>
+
 
 
 ```python
@@ -174,16 +175,17 @@ array([[[171,   0],
 - LogisticRegression, RidgeClassifier, **RandomForestClassifier**, XGBClassifier
 
 ### Confusion Matrix
-![initial](https://user-images.githubusercontent.com/83389640/144202628-ab80bc49-8665-4763-84ae-4fbb91978fd8.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/83389640/144202628-ab80bc49-8665-4763-84ae-4fbb91978fd8.png"></p>
+
 
 ## 3. 학습한 모델(LSTM, RandomForest) 적용하여 결과 확인
 (용량이 커서 paper부분은 짤림)
 
 ### LSTM(영상에 예측 gestures 이름 추가)
-<img width="50%" src='https://user-images.githubusercontent.com/83389640/144220672-d6b9ce2c-71f6-426b-a00b-8e9087a2a0ec.gif'/>
+<p align="center"><img src="https://user-images.githubusercontent.com/83389640/144220672-d6b9ce2c-71f6-426b-a00b-8e9087a2a0ec.gif"></p>
 
 ### RandomForest(예측확률 값 추가)
-<img width="50%" src='https://user-images.githubusercontent.com/83389640/144220685-1dc862e1-60f2-4816-a993-aecb5e8603bd.gif'/>
+<p align="center"><img src="https://user-images.githubusercontent.com/83389640/144220685-1dc862e1-60f2-4816-a993-aecb5e8603bd.gif"></p>
 
 ## Tools
 * python
