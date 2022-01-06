@@ -77,7 +77,7 @@ A = v[[0,1,2,4,5,6,8,9,10,12,13,14,16,17,18],:]
 B = v[[1,2,3,5,6,7,9,10,11,13,14,15,17,18,19],:]
 
 # arccos return == Radian
-# einsum == dot product( 내적 ), 각 행과의 곱 ==> 1D로 변환
+# einsum 'ij,ij->i'  행별 원소끼리 곱하고 합친것 ==> 1D로 변환
 angle = np.arccos(np.einsum('ij,ij->i', A, B)) 
     # [15,] = 15개의 손가락 데이터
 
