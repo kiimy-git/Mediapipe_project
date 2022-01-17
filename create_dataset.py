@@ -148,7 +148,7 @@ while cap.isOpened():
         # LSTM seq window 생성, 30개의 데이터를 보고 다음을 예측
         # seq_length = 30
         seq_data = []
-        for seq in range(len(data) - seq_length): # 100 - 30
+        for seq in range(len(data) - seq_length): # data - 30
             seq_data.append(data[seq: seq+seq_length]) # data[0: 30] ....
 
         # seq_data np.array
