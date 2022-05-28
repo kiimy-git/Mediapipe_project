@@ -212,5 +212,6 @@ array([[[171,   0],
    ex) 어떻게 Hands Landmark 인식?
 
 2. scissors가 다른 action에 비해서 예측확률이 현저히 떨어짐, **why??**
+   - data split시 문제(= paper가 test_data로 들어가 있음, 각 클래스마다 data split 진행 후 concate) 
 
 3. Mediapipe에는 많은 Solution이 존재(= Object Detection, Pose, Face Mesh ...)
