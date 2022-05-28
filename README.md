@@ -201,7 +201,7 @@ array([[[171,   0],
 * sklearn
 
 ## Results
-1. 복잡한 구조의 모델을 굳이 사용할 필요가 없었다. **why?** Mediapipe가 최적화가 잘 되있기 때문에 Data가 Clean
+1. 복잡한 구조의 모델을 굳이 사용할 필요가 없었다. **why?**
    - 기본적인 model에서도 충분한 성능을 보인다는 것을 확인
    
 2. 다양한 Data를 수집하고 label에 대한 예측확률에 임계치를 설정한다면? - 특정 행동에 대한 위험성을 감지 가능
@@ -211,7 +211,7 @@ array([[[171,   0],
 
    ex) 어떻게 Hands Landmark 인식?
 
-2. scissors가 다른 action에 비해서 예측확률이 현저히 떨어짐, **why??**
-   - data split시 문제(= paper가 test_data로 들어가 있음, 각 클래스마다 data split 진행 후 concate) 
+2. scissors가 다른 action에 비해서 예측확률이 현저히 떨어짐, 검증 데이터 셋에서도 100프로의 성능을 보여줌 **why??**
+   - data split시 문제(= paper가 test_data로 들어가 있음, 각 클래스마다 data split 진행 후 concate)
 
 3. Mediapipe에는 많은 Solution이 존재(= Object Detection, Pose, Face Mesh ...)
