@@ -1,4 +1,4 @@
-# Mediapipe를 활용한 Movement Detection
+# Movement Detection using Mediapipe
 [Mediapipe solutions hands API](https://google.github.io/mediapipe/solutions/hands.html)
 * 건설현장에서는 자재 도난사고, 인명사고 등 빈번하게 발생
 * 이를 예방하기 위한 CCTV와 관리자가 있지만 실시간으로 Monitoring 한계가 존재
