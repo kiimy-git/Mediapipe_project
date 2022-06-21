@@ -8,6 +8,15 @@
 # Requirements
 [requirements](https://github.com/kimmy-git/Mediapipe_project/blob/main/requirements.txt)
 
+## Tools
+* python
+* numpy
+* openCV
+* **Mediapipe**
+* Tensorflow, Keras, LSTM
+* os, time
+* sklearn
+
 # Data
 [create_dataset.py](https://github.com/kimmy-git/Mediapipe_project/blob/main/create_dataset.py)
 * webcam을 사용하여 데이터 수집(gestures = rock, scissors, paper)
@@ -191,14 +200,6 @@ array([[[171,   0],
 ### RandomForest(예측확률 값 추가)
 <p align="center"><img src="https://user-images.githubusercontent.com/83389640/144220685-1dc862e1-60f2-4816-a993-aecb5e8603bd.gif"></p>
 
-## Tools
-* python
-* numpy
-* openCV
-* **Mediapipe**
-* Tensorflow, Keras, LSTM
-* os, time
-* sklearn
 
 ## Results
 1. 복잡한 구조의 모델을 굳이 사용할 필요가 없었다. **why?**
