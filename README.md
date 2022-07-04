@@ -227,6 +227,7 @@ array([[[171,   0],
     - 적용된 함수에 필요한 input 값은 무엇인지 output 값은 무엇인지 우선 파악 후 적용 
     - 손관절 인식 구현 부분은 이해 한계 = 기초적인 학습이 필요하다고 생각함
       - [Github - OpenCV_Tutorial](https://github.com/kimmy-git/OpenCV-Tutorial)
+      - [Blog](https://cord-ai.tistory.com/category/%2A%20OpenCV)
   - 코사인 유사도 적용(= 구현)
     - 코사인 유사도, 아크코사인 활용 용도 파악
     - 팔요한 라이브러리 search 및 적용
