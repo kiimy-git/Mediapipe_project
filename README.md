@@ -226,15 +226,13 @@ array([[[171,   0],
     - 영상 인식 라이브러리(= OpenCV) 적용 어려움
     - 적용된 함수에 필요한 input 값은 무엇인지 output 값은 무엇인지 우선 파악 후 적용 
     - 손관절 인식 구현 부분은 이해 한계 = 기초적인 학습이 필요하다고 생각함
-      - 이후 OpenCV 학습진행
+      - [Github - OpenCV_Tutorial](https://github.com/kimmy-git/OpenCV-Tutorial)
   - 코사인 유사도 적용(= 구현)
     - 코사인 유사도, 아크코사인 활용 용도 파악
     - 팔요한 라이브러리 search 및 적용
 
 * 느낀점
   - 영상 인식을 쉽게 적용할 수 있는 API를 공부하고 적용해봤다는 점에서 좋은 경험이었다고 생각
-  - 영상 인식 할 수 있는 라이브러리에 대한 공부가 필요함(=> 교육 수강)
-    - [OpenCV_Tutorial](https://github.com/kimmy-git/OpenCV-Tutorial)
   - 코드를 적용하고 output에 대한 예측이 어려웠음(= 코딩 역량의 중요성을 느낌)
   - scissors는 두 가지 형태로 보여질 수 있는데(= V or 가위 형태) 현재 V형태로 학습
     - 둘 다 똑같은 뜻인데 가위형태는 가위로 안보고 rock으로 판단(= 예측확률 현저히 떨어짐)
