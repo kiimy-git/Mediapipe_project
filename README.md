@@ -71,7 +71,6 @@ OpenCV, Mediapipe API를 활용하여 특정 행동에 대한 데이터 수집 �
 4. 학습시킨 Model을 사용하여 webcam으로 실행 후 결과 확인
 
 ## 1. Data 수집(Mediapipe 사용하여 Hands의 각 Landmark 각도 구하기)
-### **Target data = {'0':'rock', '1':'scissors', '2':'paper'}**
 
 ```python
 mp_hands = mp.solutions.hands # 손의 관절 위치를 인식할 수 있는 모델
@@ -122,6 +121,7 @@ angle_label = np.append(angle_label, idx)
 ```
 ## Data 수집 영상
 * rock, scissors, paper 순차적으로 데이터 수집
+* ### **Target data = {'0':'rock', '1':'scissors', '2':'paper'}**
 <p align="center"><img src="https://user-images.githubusercontent.com/83389640/144220487-bbee0733-d9d7-41f9-bcf4-b9fd00917679.gif"></p>
 
 ## 2. colab으로 LSTM Model, ML Model 학습
