@@ -237,10 +237,12 @@ array([[[171,   0],
     - 손관절 인식 구현 부분은 이해 한계 = 영상 인식에 대한 기초적인 학습이 필요
       - [Github - OpenCV_Tutorial](https://github.com/kimmy-git/OpenCV-Tutorial)
       - [Blog](https://cord-ai.tistory.com/category/%2A%20OpenCV)
+    - 이러한 기술적인 부분이 기업에서 어떤 역할을 하는지, 어떤 WorkFlow로 진행하는지에 대한 이해도 필요
+      - [카카오스타일 인턴 진행]
   - **코사인 유사도 적용(= 구현)**
     - 코사인 유사도, 아크코사인 활용 용도 파악
     - 구현하기 위한 코딩역량 부족
-      - [코딩 학습]() 
+      - [코딩 학습(진행예정)]() 
 
 ### 느낀점
   - **Model 성능 100%???** 
