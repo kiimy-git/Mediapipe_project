@@ -251,7 +251,7 @@ array([[[171,   0],
       - [Github - OpenCV_Tutorial](https://github.com/kimmy-git/OpenCV-Tutorial)
       - [Blog](https://cord-ai.tistory.com/category/%2A%20OpenCV)
     - 이러한 기술적인 부분이 기업에서 어떤 역할을 하는지, 어떤 WorkFlow로 진행하는지에 대한 이해도 필요
-      - [카카오스타일 인턴 진행]()
+      - [카카오스타일 인턴 진행(노션)](https://www.notion.so/Hello-I-m-Kimmy-18a3274b509041088892b3b4f8ff9065)
   - **코사인 유사도 적용(= 구현)**
     - 코사인 유사도, 아크코사인 활용 용도 파악
     - 구현하기 위한 코딩역량 부족
