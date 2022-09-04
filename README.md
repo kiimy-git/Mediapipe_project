@@ -59,8 +59,8 @@ OpenCV, Mediapipe API를 활용하여 특정 행동에 대한 데이터 수집 �
 <p align="center"><img src="https://user-images.githubusercontent.com/83389640/144199611-84a5739a-db5f-4c7e-8181-de0bc6922e4a.png"></p>
 
 # Model
-* 딥러닝 기반 모델 : LSTM
-* 머신러닝 기반 모델(**StandardScaler**) : LogisticRegression, RidgeClassifier, **RandomForestClassifier**, XGBClassifier 
+- 시계열 데이터 모델 학습을 위한 딥러닝 기반 모델 : LSTM
+- 머신러닝 기반 Classification 모델(StandardScaler) : LogisticRegression, RidgeClassifier, RandomForestClassifier, XGBClassifier
 
 # Metrics and Score
 * Accuracy
