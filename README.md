@@ -244,7 +244,7 @@ array([[[171,   0],
 # Reviews
 - **<어려웠던 점>**
   - **Mediapipe - 내부적으로 어떻게 구현했는지에 대한 이해 한계(= 어떻게 손관절을 인식??? 그려지는 라인은 서로 어떻게 그려졌는지???)**
-    - 영상 인식 라이브러리(= OpenCV) 적용 어려움
+    - 영상 처리 라이브러리(= OpenCV) 적용 어려움
     - 적용된 함수에 필요한 input 값은 무엇인지 output 값은 무엇인지 우선 파악 후 적용
     - 손관절 인식 구현 부분은 이해 한계 = 영상 인식에 대한 기초적인 학습이 필요
       - [Github - OpenCV_Tutorial](https://github.com/kimmy-git/OpenCV-Tutorial)
