@@ -1,4 +1,4 @@
-# Movement Detection using Mediapipe
+# Movement Recognition using Mediapipe
 [Mediapipe solutions hands API](https://google.github.io/mediapipe/solutions/hands.html)
 
 ### 목표
